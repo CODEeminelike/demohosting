@@ -1,6 +1,7 @@
 {
   "version": 2,
   "routes": [
+    { "src": "/submit", "dest": "/result.jsp" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
