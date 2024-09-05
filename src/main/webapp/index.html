@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/CSS/LearnWebUTE.css">
+    <title>Survey</title>
+</head>
+<body>
+    <form id="Container" action="submit" method="post">
+        <img class="logo-murach" src="https://www.southeastlinuxfest.org/wp-content/uploads/2014/06/Murach_image-300x300.jpg" alt="">
+        <h1>Survey</h1>
+        <p>If you have a moment, we'd appreciate it if you would fill out this survey.</p>
+        <h3>Your information:</h3>
+        <div class="FName">
+            <label for="FirstName">First Name</label>
+            <input class="text" type="text" id="FirstName" name="firstName">
+        </div>
+        <div class="LName">
+            <label for="LastName">Last Name</label>
+            <input class="text" type="text" id="LastName" name="lastName">
+        </div>
+        <div class="mail">
+            <label for="Email">Email</label>
+            <input class="text" type="text" id="Email" name="email">
+        </div>
+        <div class="DoBirth">
+            <label for="DateOfBirth">Date of Birth</label>
+            <input class="text" type="date" id="DateOfBirth" name="dateOfBirth">
+        </div>
+        
+        <div>
+            <h3>How did you hear about us?</h3>
+        </div>
+
+        <div class="input-radio">
+            <div>
+                <input type="radio" id="Radio1" name="howDidYouHear" value="Search engine">
+                <label for="Radio1">Search engine</label>
+            </div>
+    
+            <div>
+                <input type="radio" id="Radio2" name="howDidYouHear" value="Word of mouth">
+                <label for="Radio2">Word of mouth</label>
+            </div>
+    
+            <div>
+                <input type="radio" id="Radio3" name="howDidYouHear" value="Social Media">
+                <label for="Radio3">Social Media</label>
+            </div>
+    
+            <div>
+                <input type="radio" id="Radio4" name="howDidYouHear" value="Other">
+                <label for="Radio4">Other</label>
+            </div>
+        </div>
+
+        <div>
+            <h3>Would you like to receive announcements about new CDs and special offers?</h3>
+        </div>
+
+        <div class="checkbox">
+            <div>
+                <input type="checkbox" id="CheckBox1" name="receiveAnnouncements1" value="true">
+                <label for="CheckBox1">YES, I'd like that</label>
+            </div>
+            <div>
+                <input type="checkbox" id="CheckBox2" name="receiveAnnouncements2" value="true">
+                <label for="CheckBox2">YES, please send me email announcements</label>
+            </div>
+        </div>
+
+        <div class="contact">
+            <label for="contactEmail">Please contact me by</label>
+            <select id="contactEmail" name="contactMethod">
+                <option value="Eopm">Email or postal mail</option>
+                <option value="Eo">Email only</option>
+                <option value="Pmo">Postal mail only</option>
+            </select>
+        </div>
+
+        <div>
+            <input class="button-submit" type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,76 @@
+/* RESET CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#Container {
+    padding: 10px 20px;
+    width: 470px;
+}
+
+#Container .logo-murach {
+    width: 100px;
+}
+
+h1 {
+    color: green;
+    padding: 10px 0;
+}
+
+p {
+    padding: 10px 0;
+}
+
+h3 {
+    color: green;
+    padding: 10px 0;
+    font-size: 23px;
+}
+
+.FName, .LName, .mail, .DoBirth {
+    font-weight: bold;
+    padding: 5px 0;
+    display: grid;
+}
+
+#Container .text {
+    font-size: 20px;
+}
+
+#Container .input-radio {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5px 0;
+}
+
+#Container .input-radio > div {
+    padding: 5px 0;
+    font-size: 19px;
+}
+
+#Container .checkbox {
+    padding: 3px 0;
+}
+
+#Container .checkbox > div {
+    padding: 7px 0;
+}
+
+#Container .contact {
+    padding: 5px 0 15px 0;
+}
+
+#Container .button-submit {
+    margin: 10px;
+    padding: 10px 30px;
+    background-color: rgb(18, 14, 233);
+    color: white;
+    font-weight: bold;
+}
+
+#Container .button-submit:hover {
+    background-color: rgba(18, 14, 233, 0.5);
+    cursor: pointer;
+}

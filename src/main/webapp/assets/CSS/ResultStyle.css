@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2em; /* Chữ "Survey Result" to hơn */
+    color: red; /* Màu đỏ */
+    text-align: center;
+}
+
+.container {
+    border: 2px solid black; /* Khung màu đen */
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+p strong {
+    display: block; /* Xuống dòng */
+    font-weight: bold; /* In đậm */
+}
