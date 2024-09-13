@@ -17,8 +17,7 @@ public class SubmitServlet extends HttpServlet {
         boolean receiveAnnouncements1 = request.getParameter("receiveAnnouncements1") != null;
         boolean receiveAnnouncements2 = request.getParameter("receiveAnnouncements2") != null;
         String contactMethod = request.getParameter("contactMethod");
-
-        // Combine the two checkbox values into one field
+    
         boolean receiveAnnouncements = receiveAnnouncements1 || receiveAnnouncements2;
 
         User user = new User(firstName, lastName, email, dateOfBirth, howDidYouHear, receiveAnnouncements, contactMethod);
